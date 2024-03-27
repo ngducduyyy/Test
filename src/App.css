@@ -1,0 +1,23 @@
+.nav{
+    width: 100vw;
+    height: 48px;
+    top: 24px;
+    left: 83px;
+    border-radius: 37px;
+    background-color: #192026;
+    ;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.nav-container a{
+    color: white;
+    margin: 10px;
+}
+.nav h1 {
+    color: white;
+}
+.release {
+    color: white;
+    font-family: Pop;
+}
