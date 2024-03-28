@@ -7,9 +7,15 @@ const NewRelease = () => {
   return (
     <div className='release'>
         <h2>New Realease</h2>
-        <Link to={`/Detail/${data.id}`}>
-        <Movie key={data.id}/>
-        </Link>
+        {data.map((movieItem) => (
+          <li key={movieItem.id}>
+            <Link to={`/Detail/${movieItem.id}`}>
+            <Movie key={movieItem.id}/>
+            </Link>
+          </li>
+        ))}
+        
+        
     </div>
   )
 }
