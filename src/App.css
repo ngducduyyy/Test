@@ -5,13 +5,13 @@
     left: 83px;
     border-radius: 37px;
     background-color: #192026;
-    ;
     display: flex;
     text-align: center;
     justify-content: flex-start;
     align-items: baseline;
 }
 .navbar{
+    width: 1400px;
     display: flex;
     align-items: baseline;
 }
@@ -37,6 +37,7 @@
     font-size: 40px;
 }
 .release {
+    width: 1000px;
     color: white;
    margin-top: 50px;
 }
@@ -72,11 +73,6 @@
     height: 300px;
     border-radius: 10px;
 }
-.explore img{
-    width: 1210px;
-    height: 440px;
-    margin-left: 20px;
-}
 .explore-main{
     width: 1170px;
 }
@@ -87,16 +83,19 @@
     border-radius: 10px;
     position: absolute;
     z-index: 1;
-    filter:brightness(70%);
+    filter:brightness(60%);
     object-fit: fill;
+    width: 1210px;
+    height: 440px;
+    margin-left: 20px;
 }
 .explore-container{
     background-color: transparent;
     width: 700px;
     position: absolute;
     z-index: 100;
-    padding-left: 80px;
-    padding-top: 200px;
+    padding-left: 50px;
+    padding-top: 230px;
 
 }
 .release-container{
